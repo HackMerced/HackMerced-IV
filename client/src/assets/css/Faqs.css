@@ -1,0 +1,40 @@
+.Faqs {
+  width: inherit;
+  padding: 100px 0;
+}
+
+.Faqs .container {
+  display: flex;
+}
+
+.Faqs .column {
+  flex: 50%;
+}
+.left {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.right {
+  margin-left: 50px;
+  margin-right: 200px;
+}
+
+/* @media screen and (max-width: 600px) {
+  .Faqs.column {
+    width: 100%;
+  }
+} */
+
+.Faqs .question {
+  text-align: left;
+  border: 3px solid #F1C40F;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Faqs .question h3 {
+  font-weight: bold;
+}
