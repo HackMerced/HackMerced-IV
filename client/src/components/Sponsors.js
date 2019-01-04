@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../assets/css/Sponsors.css';
 import CITRIS from '../assets/images/CITRIS.png';
 import UCANR from '../assets/images/UCANR.png';
+import CRAZE from '../assets/images/Craze.png';
 import CM from '../assets/images/CoolerMaster.png';
 import GDC from '../assets/images/GoodDayChocolate.png';
 
@@ -16,6 +17,9 @@ class Sponsors extends Component {
           </div>
           <div className="icon">
             <img src={UCANR} alt="UCANR" width="600px" />
+          </div>
+          <div className="icon">
+            <img src={CRAZE} alt="CRAZE" width="500px" />
           </div>
           <div className="column">
             <div className="row">

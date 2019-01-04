@@ -1,18 +1,22 @@
 .Sponsors {
   width: inherit;
-  padding: 100px 0;
-}
-
-.Sponsors .row {
-  display: flex;
+  padding: 50px 0;
 }
 
 .Sponsors .column {
+  display: flex;
+
+}
+
+.Sponsors .row {
   flex: 50%;
 }
 
-img {
-  margin: auto;
+.icon {
+  margin: 10px;
+}
+
+.row .icon{
   display: inline-block;
-  text-align: center;
+  margin: 0 auto;
 }
