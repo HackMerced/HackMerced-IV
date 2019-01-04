@@ -1,9 +1,13 @@
 .Home {
+  height: 100vh;
   width: inherit;
-  padding: 300px 0 550px;
   background-image: url('../images/ucmerced.png');
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: auto;
+}
+
+.Home .container {
+  padding-top: 280px;
 }

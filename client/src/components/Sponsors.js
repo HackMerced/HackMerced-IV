@@ -32,6 +32,8 @@ class Sponsors extends Component {
             </div>
           </div>
         </div>
+        <h3>Interested in sponsoring us?</h3>
+        <p>Email us at <a href="mailto:sponsorship@hackmerced.com" style={{textDecoration:"none", color:"#82E0AA"}}>sponsorship@hackmerced.com</a>.</p>
       </div>
     );
   }
