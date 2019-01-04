@@ -1,6 +1,7 @@
 .Sponsors {
   width: inherit;
   padding: 50px 0;
+  position: relative;
 }
 
 .Sponsors .column {
@@ -19,4 +20,8 @@
 .row .icon{
   display: inline-block;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1150px) {
+
 }

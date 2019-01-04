@@ -1,7 +1,12 @@
 .Home {
   height: 100vh;
-  width: inherit;
-  background-image: url('../images/ucmerced.png');
+  width: 100%;
+
+  position: relative;
+  /* background-color: rgb(0,156,114); */
+  /* background-color: linear-gradient(180deg, rgba(0,156,114,1) 27%, rgba(2,0,36,1) 55%); */
+
+  background-image: url('../images/ucmerced.png'), linear-gradient(360deg, rgba(0,156,114,1) 0%, rgba(2,0,36,1) 55%);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: absolute;
@@ -10,4 +15,24 @@
 
 .Home .container {
   padding-top: 280px;
+}
+
+button {
+  display:inline-block;
+  background-color: #009c72;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 32px;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+  width: 200px;
+  padding: 10px 10px;
+  margin: 30px 10px;
+}
+
+@media screen and (max-width: 1150px) {
+  .Home {
+    /* background-size: 3000px; */
+  }
 }

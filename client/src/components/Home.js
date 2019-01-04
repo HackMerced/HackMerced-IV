@@ -8,7 +8,16 @@ class Home extends Component {
         <div className="header-section">
           <div className="container">
             <h1>HackMerced 2019</h1>
-            <h2 className="subtitle">March 1st - 3rd @ UC Merced</h2>
+            <h2>March 1st - 3rd @ UC Merced</h2>
+
+            <button className="Apply">
+              <strong>Apply</strong>
+              <a class="dropdown-item" data-scroll="true" href="./application.html"></a>
+            </button>
+            <button className="Volunteer">
+              <strong>Volunteer</strong>
+              <a class="dropdown-item" data-scroll="true" href="./volunteer.html"></a>
+            </button>
 
             <a id="mlh-trust-badge" style={{ display:"block", maxWidth:"100px", minWidth:"60px", position:"absolute", left:"50px", top:"0", width:"10%", zIndex:"10000"}}
               href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-black&amp;utm_content=black"
