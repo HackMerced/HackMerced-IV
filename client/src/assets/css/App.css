@@ -2,9 +2,7 @@
   color: #fff;
   text-align: center;
   width: inherit;
-
-  background: linear-gradient(180deg, rgba(0,156,114,1) 30%, rgba(2,0,36,1) 70%);
-
+  height: inherit;
 }
 
 h1 {
