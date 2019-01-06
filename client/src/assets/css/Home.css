@@ -4,7 +4,7 @@
 
   position: relative;
 
-  background-image: url('../images/ucmerced.png'), linear-gradient(360deg, rgba(0,156,114,1) 15%, rgba(2,0,36,1) 85%);
+  background-image: url('../images/ucmerced.png'), linear-gradient(0deg, rgba(34,152,195,1) 0%, rgba(2,0,36,1) 70%);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: absolute;
@@ -28,4 +28,7 @@
   margin: 30px 10px;
   color: #fff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
 }

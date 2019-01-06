@@ -1,21 +1,41 @@
 .About {
   width: inherit;
-  padding: 50px 0;
-  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
   position: relative;
 }
 
-.About p {
-  width: 800px;
-  text-align: center;
+.About .container {
   margin: 0 auto;
 }
 
+.About h3 {
+  font-weight: bold;
+}
+
+.About .text {
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.About .info, .goal {
+  margin-bottom: 40px;
+}
+
+.About .tent {
+  display: inline-block;
+  width: 500px;
+  margin-left: 40px;
+  vertical-align: bottom;
+}
+
 @media screen and (max-width: 840px) {
-  .About {
-  }
-  .About p {
-    width: inherit;
-    margin: 0 40px;
+
+  .About .tent {
+    /* vertical-align: top; */
+    margin-left: 0;
   }
 }

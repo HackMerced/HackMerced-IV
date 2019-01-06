@@ -3,7 +3,7 @@
   text-align: center;
   width: inherit;
   height: inherit;
-  background: linear-gradient(180deg, rgba(0,156,114,1) 30%, rgba(2,0,36,1) 70%);
+  background: linear-gradient(180deg, rgba(0,156,114,1) 25%, rgba(0,105,4,1) 32%, rgba(2,0,36,1) 78%);
 }
 
 h1 {
@@ -24,9 +24,9 @@ h2 {
 }
 
 h3 {
-  margin: 5px 0px;
+  margin: 0;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 23px;
   font-weight: 400;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
@@ -56,18 +56,16 @@ h6 {
 }
 
 p {
-  margin-top: 0px;
   margin-bottom: 5px;
   font-size: 20px;
   line-height: 23px;
-  letter-spacing: 0px;
+  letter-spacing: 1px;
   font-weight: bold;
   text-shadow: 0 3px 3px rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
 }
 
 @media screen and (max-width: 1200px) {
   .App {
-    /* width: 1100px; */
   }
   h1 {
     font-size: 58px;
