@@ -26,15 +26,6 @@
   width: 200px;
   padding: 10px 10px;
   margin: 30px 10px;
-}
-
-.button a {
   color: #fff;
   text-decoration: none;
-}
-
-@media screen and (max-width: 1150px) {
-  .Home {
-    /* background-size: 3000px; */
-  }
 }
