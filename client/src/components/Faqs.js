@@ -39,7 +39,7 @@ class Faqs extends Component {
             </div>
             <div className="question">
               <h3>What can I build?</h3>
-              <p>You and your team can build whatever your creativity comes up with!</p>
+              <p>You and your team can build a project towards a theme of your choosing!</p>
             </div>
             <div className="question">
               <h3>Are there any rules?</h3>

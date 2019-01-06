@@ -2,13 +2,22 @@ import React, { Component } from 'react';
 import '../assets/css/Home.css';
 
 class Home extends Component {
+
   render() {
+
     return (
       <div className="Home">
         <div className="header-section">
           <div className="container">
             <h1>HackMerced 2019</h1>
-            <h2 className="subtitle">March 1st - 3rd @ UC Merced</h2>
+            <h2>March 1st - 3rd @ UC Merced</h2>
+
+            <div className="Apply button">
+              <a href='https://hackmerced1.typeform.com/to/FsXiEC'><strong>Apply</strong></a>
+            </div>
+            <div className="Volunteer button">
+              <a href='https://hackmerced1.typeform.com/to/rqqcxV'><strong>Volunteer</strong></a>
+            </div>
 
             <a id="mlh-trust-badge" style={{ display:"block", maxWidth:"100px", minWidth:"60px", position:"absolute", left:"50px", top:"0", width:"10%", zIndex:"10000"}}
               href="https://mlh.io/seasons/na-2019/events?utm_source=na-hackathon&amp;utm_medium=TrustBadge&amp;utm_campaign=2019-black&amp;utm_content=black"

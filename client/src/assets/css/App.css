@@ -1,16 +1,17 @@
 .App {
   color: #fff;
   text-align: center;
-  width: 100%;
+  width: inherit;
+  height: inherit;
 }
 
 h1 {
   margin: 10px 0px 16px;
   font-size: 68px;
   line-height: 54px;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 1px;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 h2 {
@@ -18,7 +19,7 @@ h2 {
   font-size: 32px;
   line-height: 36px;
   font-weight: 700;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 h3 {
@@ -26,7 +27,7 @@ h3 {
   font-size: 22px;
   line-height: 30px;
   font-weight: 400;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 h4 {
@@ -34,6 +35,7 @@ h4 {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 h5 {
@@ -41,6 +43,7 @@ h5 {
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 h6 {
@@ -48,6 +51,7 @@ h6 {
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 }
 
 p {
@@ -56,5 +60,15 @@ p {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 0px;
-  text-shadow: none;
+  font-weight: bold;
+  text-shadow: 0 3px 3px rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    /* width: 1100px; */
+  }
+  h1 {
+    font-size: 58px;
+  }
 }

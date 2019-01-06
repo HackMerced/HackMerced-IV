@@ -1,0 +1,9 @@
+.Footer {
+  width: inherit;
+  padding-top: 50px;
+  position: relative;
+}
+
+@media screen and (max-width: 1150px) {
+
+}
