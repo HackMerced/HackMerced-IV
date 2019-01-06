@@ -9,7 +9,7 @@ class Home extends Component {
       <div className="Home">
         <div className="header-section">
           <div className="container">
-            <h1>HackMerced 2019</h1>
+            <h1>HackMerced IV</h1>
             <h2>March 1st - 3rd @ UC Merced</h2>
 
             <div className="Apply button">
