@@ -7,9 +7,8 @@ html, body {
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   display: grid;
-  background: linear-gradient(180deg, rgba(0,156,114,1) 30%, rgba(2,0,36,1) 70%);
+  background-color: rgba(2,0,36,1);
 }
 
 code {
