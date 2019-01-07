@@ -4,20 +4,27 @@
 
   position: relative;
 
-  background-image: url('../images/ucmerced.png'), linear-gradient(0deg, rgba(34,152,195,1) 0%, rgba(2,0,36,1) 70%);
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-attachment: absolute;
-  background-size: auto;
+  background: linear-gradient(0deg, rgba(195,188,169,1) 10%, rgba(34,152,195,1) 10%, rgba(2,0,36,1) 50%);
+
 }
 
 .Home .container {
-  padding-top: 280px;
+  height: inherit;
+
+  background-image: url('../images/UCM.png');
+  background-position: bottom 60px center;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  background-size: 3200px ;
+}
+
+.content {
+  padding-top: 250px;
 }
 
 .button {
   display:inline-block;
-  background-color: #009c72;
+  background-color: #009c3b;
   border: none;
   border-radius: 30px;
   font-size: 32px;

@@ -41,7 +41,6 @@
   .Faqs .container {
     display: block;
     width: inherit;
-    margin: 0 auto;
   }
 
   .left, .right {

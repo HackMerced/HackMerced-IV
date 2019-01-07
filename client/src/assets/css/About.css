@@ -3,10 +3,15 @@
   padding-top: 100px;
   padding-bottom: 50px;
   position: relative;
+  margin: 0 auto;
 }
 
 .About .container {
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.About h2 {
 }
 
 .About h3 {
@@ -15,26 +20,29 @@
 
 .About .text {
   display: inline-block;
-  width: 500px;
+  width: 600px;
+  padding: 0 30px;
   text-align: left;
-  margin-top: 40px;
-  margin-left: 40px;
+  vertical-align: middle;
 }
 
-.About .info, .goal {
-  margin-bottom: 40px;
+.info {
+  margin: 40px 0 20px;
 }
 
-.About .tent {
+.goal {
+}
+
+.About .image {
   display: inline-block;
-  width: 500px;
-  margin-left: 40px;
-  vertical-align: bottom;
+  vertical-align: middle;
+  margin-bottom: 30px;
 }
 
-@media screen and (max-width: 840px) {
+.tent {
+  width: 500px;
+}
 
-  .About .tent {
-    
-  }
+@media screen and (min-width: 1200px) {
+
 }
