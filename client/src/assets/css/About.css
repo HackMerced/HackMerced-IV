@@ -3,7 +3,6 @@
   padding-top: 100px;
   padding-bottom: 50px;
   position: relative;
-  margin: 0 auto;
 }
 
 .About .container {
@@ -39,5 +38,14 @@
 @media screen and (max-width: 1200px) {
   .About {
     padding-top: 50px;
+  }
+  .About .container {
+    width: inherit;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .About .text, .tent {
+    width: 300px;
   }
 }

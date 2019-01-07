@@ -22,6 +22,51 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 1150px) {
+.gold img {
+  width: 700px;
+}
 
+.silver img {
+  width: 600px;
+}
+
+.bronze img {
+  width: 350px;
+}
+
+.Sponsors.prompt {
+  padding: 0 20px;
+}
+@media screen and (max-width: 800px) {
+  .row .icon{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .gold img {
+    width: 500px;
+  }
+
+  .silver img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row .icon{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .gold img {
+    width: 350px;
+  }
+
+  .silver img {
+    width: 300px;
+  }
+
+  .bronze img {
+    width: 200px;
+  }
 }

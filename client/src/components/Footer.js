@@ -7,9 +7,9 @@ class Footer extends Component {
       <div className="Footer">
         <div className="container">
           <div className="credits">
-            <p><span className="copyright">
+            <span className="copyright">
               © 2019 HackMerced. All Rights Reserved.
-            </span></p>
+            </span>
           </div>
         </div>
       </div>

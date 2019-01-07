@@ -12,10 +12,14 @@ class App extends Component {
     return (
       <div className="App">
         <Home />
+
         <About />
+
         <Faqs />
+
         <Sponsors />
         <Footer />
+
       </div>
     );
   }

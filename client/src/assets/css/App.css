@@ -3,7 +3,7 @@
   text-align: center;
   width: inherit;
   height: inherit;
-  background: linear-gradient(180deg, rgba(0,156,59,1) 25%, rgba(2,0,36,1) 46%);
+  background: linear-gradient(180deg, rgba(0,156,59,1) 23%, rgba(2,0,36,1) 46%);
 }
 
 h1 {
@@ -60,10 +60,10 @@ p {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 1px;
-  text-shadow: 0 3px 3px rgba(0, 0, 0, .84), 0 2px 4px rgba(0, 0, 0, .45);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   .App {
+    width: 100%;
   }
 }

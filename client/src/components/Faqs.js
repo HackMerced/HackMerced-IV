@@ -47,9 +47,11 @@ class Faqs extends Component {
             </div>
           </div>
         </div>
-        <h3>Any other questions?</h3>
-        <p>Feel free to message us at: <a href="mailto:general@hackmerced.com?subject=HackMerced Questions&body=Dear HackMerced," style={{textDecoration:"none", color:"#82E0AA"}}>general@hackmerced.com</a>.
-        </p>
+        <div className="prompt">
+          <h3>Any other questions?</h3>
+          <p>Feel free to message us at: <a href="mailto:general@hackmerced.com?subject=HackMerced Questions&body=Dear HackMerced," style={{textDecoration:"none", color:"#82E0AA"}}>general@hackmerced.com</a>.
+          </p>
+        </div>
       </div>
     );
   }
