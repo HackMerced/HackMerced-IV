@@ -32,10 +32,6 @@
   margin: 40px 0;
 }
 
-.Faqs .question h3 {
-  font-weight: bold;
-}
-
 @media screen and (max-width: 1200px) {
 
   .Faqs .container {

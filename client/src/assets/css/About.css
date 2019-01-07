@@ -11,13 +11,6 @@
   padding: 0 20px;
 }
 
-.About h2 {
-}
-
-.About h3 {
-  font-weight: bold;
-}
-
 .About .text {
   display: inline-block;
   width: 600px;
@@ -31,18 +24,20 @@
 }
 
 .goal {
+  margin: 20px 0 0 0;
 }
 
 .About .image {
   display: inline-block;
   vertical-align: middle;
-  margin-bottom: 30px;
 }
 
 .tent {
   width: 500px;
 }
 
-@media screen and (min-width: 1200px) {
-
+@media screen and (max-width: 1200px) {
+  .About {
+    padding-top: 50px;
+  }
 }
