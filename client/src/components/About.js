@@ -20,7 +20,7 @@ class About extends Component {
             </div>
             <div className="goal">
               <h3>Why we do it</h3>
-              <p>Our goal is to have our participants work on meaningful projects that are impactful through their creativity and teamwork.
+              <p>We aim to create a collaborative, interdisciplinary event that brings together students from all universities and prospective sponsors to see the innovation and creativity culminating within the San Joaquin Valley.
               </p>
             </div>
           </div>
