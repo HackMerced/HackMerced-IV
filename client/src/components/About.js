@@ -5,7 +5,7 @@ import Tent from '../assets/images/tent.png';
 class About extends Component {
   render() {
     return (
-      <div className="About">
+      <div className="About" id="About" >
         <div className="container">
           <div className="image">
             <img src={Tent} className="tent" alt="TENT" />

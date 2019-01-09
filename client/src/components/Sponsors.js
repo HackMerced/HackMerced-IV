@@ -9,7 +9,7 @@ import GDC from '../assets/images/GoodDayChocolate.png';
 class Sponsors extends Component {
   render() {
     return (
-      <div className="Sponsors">
+      <div className="Sponsors" id="Sponsors" >
         <h2>SPONSORS</h2>
         <div className="container">
           <div className="gold">

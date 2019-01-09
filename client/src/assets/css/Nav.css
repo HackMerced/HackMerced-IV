@@ -1,0 +1,25 @@
+.Nav {
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+}
+
+.Nav ul {
+  float: right;
+  padding: 0 25px;
+}
+
+.Nav li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 25px;
+}
+
+.Nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Nav p {
+  padding-bottom: 10px;
+}
