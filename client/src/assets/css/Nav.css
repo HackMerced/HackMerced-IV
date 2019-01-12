@@ -23,3 +23,9 @@
 .Nav p {
   padding-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .Nav nav {
+      display: none;
+    }
+}
