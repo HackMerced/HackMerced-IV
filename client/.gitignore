@@ -22,8 +22,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# lock files
 yarn.lock
-.vscode
 package-lock.json
 
 
