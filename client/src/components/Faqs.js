@@ -4,7 +4,7 @@ import '../assets/css/Faqs.css';
 class Faqs extends Component {
   render() {
     return (
-      <div className="Faqs">
+      <div className="Faqs" id="Faqs" >
         <h2>FREQUENTLY ASKED QUESTIONS</h2>
         <div className="container">
           <div className="column left">
