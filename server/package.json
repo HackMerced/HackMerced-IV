@@ -1,0 +1,17 @@
+{
+  "name": "HackMerced-Backend",
+  "version": "1.0.0",
+  "private": false,
+  "description": "NodeJS backend with built in connections to MongoDB and some validation",
+  "repository": "https://github.com/HackMerced/HackMerced-IV.git",
+  "license": "MIT",
+  "author": "HackMerced",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
