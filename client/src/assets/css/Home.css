@@ -4,7 +4,7 @@
 
   position: relative;
 
-  background: linear-gradient(0deg, rgba(195,188,169,1) 10%, rgba(34,152,195,1) 10%, rgba(2,0,36,1) 50%);
+  background: linear-gradient(0deg, #6A83A8 10%, rgba(34,152,195,1) 10%, rgba(2,0,36,1) 50%);
 
 }
 
@@ -24,7 +24,7 @@
 
 .button {
   display:inline-block;
-  background-color: #009c3b;
+  background-color: #D7AA27;
   border: none;
   border-radius: 30px;
   font-size: 32px;
