@@ -1,6 +1,6 @@
 .Faqs {
   width: inherit;
-  padding: 100px 0 20px 0;
+  padding: 100px 0 50px 0;
   position: relative;
 }
 
@@ -34,10 +34,6 @@
 
 .Faqs.prompt {
   padding: 0 20px;
-}
-
-.Faqs .Raccoon {
-  margin-top: 40px;
 }
 
 @media screen and (max-width: 1200px) {
