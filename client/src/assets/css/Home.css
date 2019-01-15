@@ -3,15 +3,16 @@
   width: 100%;
 
   position: relative;
-  background: rgba(2,0,36,1);
-  background: linear-gradient(0deg, #6A83A8 10%, #2272c3 10%, rgba(2,0,36,1) 45%);
+
+  background: linear-gradient(0deg, rgba(195,188,169,1) 10%, rgba(34,152,195,1) 10%, rgba(2,0,36,1) 50%);
+
 }
 
 .Home .container {
   height: inherit;
 
   background-image: url('../images/UCM.png');
-  background-position: bottom 50px center;
+  background-position: bottom 60px center;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: 3200px ;
@@ -23,7 +24,7 @@
 
 .button {
   display:inline-block;
-  background-color: #D7AA27;
+  background-color: #009c3b;
   border: none;
   border-radius: 30px;
   font-size: 32px;
@@ -37,25 +38,11 @@
 }
 
 a.button:hover {
-  background-color: #F4D03F;
+  background-color: #27AE60;
 }
 
 @media screen and (max-width: 700px) {
   .Home h1 {
     font-size: 48px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .Home {
-  }
-  .Home .container {
-    background-size: 1600px ;
-  }
-}
-
-@media screen and (max-height: 800px) {
-  .Home .container {
-    background-size: 1600px ;
   }
 }
