@@ -3,7 +3,8 @@
   text-align: center;
   width: inherit;
   height: inherit;
-  background: linear-gradient(180deg, rgba(2,0,36,1) 30%, #354358 35%, rgba(2,0,36,1) 35%);
+  background: rgb(53,67,88);
+  background: linear-gradient(180deg, rgba(53,67,88,1) 20%, rgba(9,17,29,1) 40%, rgba(2,0,36,1) 100%);
 }
 
 h1 {
