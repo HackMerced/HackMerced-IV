@@ -8,8 +8,24 @@ class Hackers extends Component {
       name: '',
       email: '',
       phone: '',
-      privileges: 'hacker',
-      
+      school: '',
+      age: '',
+      gender: '',
+      skills: [],
+      interests: [],
+      programmingLanguages: [],
+      dietaryRestrictions: [],
+      allergies: [],
+      specialNeeds: '',
+      shirtSize: '',
+      previousHackathons: 0,
+      haveTeam: false,
+      teamEmails: [],
+      reimbursement: false,
+      linkedin: '',
+      github: '',
+      otherSites: '',
+      resume: '',
     };
   }
 
@@ -20,28 +36,87 @@ class Hackers extends Component {
   onSubmit = (e) => {
     e.preventDefault();
     // get our form data out of state
-    const { fname, lname, email } = this.state;
+    const { 
+      name, 
+      email,
+      phone,
+      school,
+      age,
+      gender,
+      skills,
+      interests,
+      programmingLanguages,
+      dietaryRestrictions,
+      allergies,
+      specialNeeds,
+      shirtSize,
+      previousHackathons,
+      haveTeam,
+      teamEmails,
+      reimbursement,
+      linkedin,
+      github,
+      otherSites,
+      resume,
+  } = this.state;
 
-    axios.post('/', { fname, lname, email })
+    axios.post('/api/hacker', {       
+      name, 
+      email,
+      phone,
+      school,
+      age,
+      gender,
+      skills,
+      interests,
+      programmingLanguages,
+      dietaryRestrictions,
+      allergies,
+      specialNeeds,
+      shirtSize,
+      previousHackathons,
+      haveTeam,
+      teamEmails,
+      reimbursement,
+      linkedin,
+      github,
+      otherSites,
+      resume, })
       .then((result) => {
         //access the results here....
       });
   }
 
   render() {
-    const { fname, lname, email } = this.state;
+    const {       
+      name, 
+      email,
+      phone,
+      privileges,
+      school,
+      age,
+      gender,
+      skills,
+      interests,
+      programmingLanguages,
+      dietaryRestrictions,
+      allergies,
+      specialNeeds,
+      shirtSize,
+      previousHackathons,
+      haveTeam,
+      teamEmails,
+      reimbursement,
+      linkedin,
+      github,
+      otherSites,
+      resume, } = this.state;
     return (
       <form onSubmit={this.onSubmit}>
         <input
           type="text"
-          name="fname"
-          value={fname}
-          onChange={this.onChange}
-        />
-        <input
-          type="text"
-          name="lname"
-          value={lname}
+          name="name"
+          value={name}
           onChange={this.onChange}
         />
         <input

@@ -37,12 +37,18 @@ const attendeeSchema = new mongoose.Schema({
   discriminatorKey: 'type',
   collection: 'users',
   timestamps: {
-    createdAt: 'created_at',
-    updatedAt: 'updated_at'
+    createdAt: {
+      type: Date,
+      default: Date.now
+    },
+    updatedAt: {
+      type: Date,
+      default: Date.now
+    }
   }
 });
 
-const Attendees = db.hackmerced.model('Attendees', attendeeSchema, 'attendees');
+const Attendees = mongoose.model('Attendees', attendeeSchema, 'attendees');
 
 // Hackers
 const Hackers = Attendees.discriminator('hacker', new mongoose.Schema({
@@ -239,12 +245,18 @@ const teamSchema = new mongoose.Schema({
 }, {
   collection: 'teams',
   timestamps: {
-    createdAt: 'created_at',
-    updatedAt: 'updated_at'
+    createdAt: {
+      type: Date,
+      default: Date.now
+    },
+    updatedAt: {
+      type: Date,
+      default: Date.now
+    }
   }
 });
 
-const Teams = db.hackmerced.model('Teams', teamSchema, 'teams');
+const Teams = mongoose.model('Teams', teamSchema, 'teams');
 
 const models = {
   Attendees: Attendees,
