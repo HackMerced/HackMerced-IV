@@ -44,7 +44,7 @@ const attendeeSchema = new mongoose.Schema({
   }
 });
 
-const Attendees = db.hackmerced.model('Attendees', attendeeSchema, 'attendees');
+const Attendees = mongoose.model('Attendees', attendeeSchema, 'attendees');
 
 // Hackers
 const Hackers = Attendees.discriminator('hacker', new mongoose.Schema({
@@ -246,7 +246,7 @@ const teamSchema = new mongoose.Schema({
   }
 });
 
-const Teams = db.hackmerced.model('Teams', teamSchema, 'teams');
+const Teams = mongoose.model('Teams', teamSchema, 'teams');
 
 const models = {
   Attendees: Attendees,
