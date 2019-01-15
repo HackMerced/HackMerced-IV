@@ -10,7 +10,7 @@ class Home extends Component {
           <div className="content">
             <h1>HackMerced IV</h1>
             <h2>March 1st - 3rd @ UC Merced</h2>
-            <a className="Apply button" href='https://hackmerced1.typeform.com/to/FsXiEC'><strong>Apply</strong></a>
+            <a className="Apply button" href='/Hackers'><strong>Apply</strong></a>
             <a className="Volunteer button" href='https://hackmerced1.typeform.com/to/rqqcxV'><strong>Volunteer</strong></a>
           </div>
         </div>

@@ -1,3 +1,5 @@
+'use strict';
+
 const mongoose = require('mongoose');
 const db = require('../config/db').hackmerced;
 
@@ -16,16 +18,12 @@ const attendeeSchema = new mongoose.Schema({
     },
     required: [true, 'User email required']
   },
-  password: {
-    type: String,
-    required: [true, 'User password required']
-  },
   phone: {
     type: String,
     required: [true, 'User phone number required']
   },
   privileges: {
-    type: [String],
+    type: String,
     required: [true, 'User privileges required']
   },
   qr: {
