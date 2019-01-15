@@ -5,7 +5,6 @@
   position: relative;
   background: rgba(2,0,36,1);
   background: linear-gradient(0deg, #6A83A8 10%, #2272c3 10%, rgba(2,0,36,1) 45%);
-
 }
 
 .Home .container {
@@ -50,6 +49,12 @@ a.button:hover {
 @media screen and (max-width: 650px) {
   .Home {
   }
+  .Home .container {
+    background-size: 1600px ;
+  }
+}
+
+@media screen and (max-height: 800px) {
   .Home .container {
     background-size: 1600px ;
   }
