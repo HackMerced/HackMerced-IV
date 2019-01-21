@@ -23,7 +23,9 @@
 .Nav p {
   padding-bottom: 10px;
 }
-
+.Nav a p:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 /* Position and sizing of burger button */
 .bm-burger-button {
   display: none;
