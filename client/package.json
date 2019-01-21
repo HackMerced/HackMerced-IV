@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.7.0",
+    "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^2.6.1",
     "react-dom": "^16.7.0",
     "react-router-dom": "^4.3.1",
