@@ -15,25 +15,25 @@ class Sponsors extends Component {
         <div className="container">
           <div className="gold">
             <div className="icon Cirtis">
-              <img src={CITRIS} alt="CITRIS" />
+              <a href="http://citris.ucmerced.edu"><img src={CITRIS} alt="CITRIS" /></a>
             </div>
             <div className="icon Ucanr">
-              <img src={UCANR} alt="UCANR" />
+              <a href="https://ucanr.edu"><img src={UCANR} alt="UCANR" /></a>
             </div>
           </div>
           <div className="silver">
             <div className="icon Craze">
-              <img src={CRAZE} alt="CRAZE" />
+              <a href="http://crazedigitalmedia.com"><img src={CRAZE} alt="CRAZE" /></a>
             </div>
           </div>
           <div className="column">
             <div className="row">
               <div className="bronze">
                 <div className="icon CoolerMaster">
-                  <img src={CM} alt="CoolerMaster" />
+                  <a href="http://www.coolermaster.com/"><img src={CM} alt="CoolerMaster" /></a>
                 </div>
                 <div className="icon GoodDayChocolate">
-                  <img src={GDC} alt="Good Day Chocolates" />
+                  <a href="https://www.gooddaychocolate.com"><img src={GDC} alt="Good Day Chocolates" /></a>
                 </div>
               </div>
             </div>
