@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/css/Nav.css';
 import { stack as Menu } from 'react-burger-menu'
-import $ from 'jquery';
 
 class Nav extends Component {
   render() {

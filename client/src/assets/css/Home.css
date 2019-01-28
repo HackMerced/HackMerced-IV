@@ -1,24 +1,60 @@
 .Home {
-  height: 100vh;
   width: 100%;
 
   position: relative;
   background: rgba(2,0,36,1);
-  background: linear-gradient(0deg, #6A83A8 10%, #D7AA27 10%, rgba(2,0,36,1) 45%);
+  background: linear-gradient(1deg, #020024, #daad27, #020024);
+  background-size: 400% 400%;
+
+  -webkit-animation: anim 20s ease infinite;
+  -moz-animation: anim 20s ease infinite;
+  animation: anim 20s ease infinite;
 }
+  @-webkit-keyframes anim {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+  @-moz-keyframes anim {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+  @keyframes anim {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
 
 .Home .container {
-  height: inherit;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  position: relative;
+}
 
+.Home .bg {
+  height: 450px;
+  position: absolute;
+  bottom: 0;
   background-image: url('../images/UCM.png');
-  background-position: bottom 50px center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: 3200px ;
 }
 
+.sidewalk {
+  height: 50px;
+  bottom: 0;
+  background-color: #6A83A8;
+}
+
 .content {
-  padding-top: 240px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
 }
 
 .button {
