@@ -4,7 +4,7 @@
   width: inherit;
   height: inherit;
   background: rgb(53,67,88);
-  background: linear-gradient(180deg, rgba(53,67,88,1) 20%, rgba(9,17,29,1) 40%, rgba(2,0,36,1) 100%);
+  background: linear-gradient(180deg, rgba(53,67,88,1) 20%, rgba(9,17,29,1) 50%, rgba(2,0,36,1) 100%);
 }
 
 h1 {
@@ -61,6 +61,12 @@ p {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 1px;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 10px solid #D7AA27;
+    border-radius: 15px;
 }
 
 .Raccoon, .icon, .question {

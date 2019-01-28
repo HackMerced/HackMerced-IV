@@ -5,7 +5,7 @@ class Faqs extends Component {
   render() {
     return (
       <div className="Faqs" id="Faqs" >
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+        <h2><u>FREQUENTLY ASKED QUESTIONS</u></h2>
         <div className="container">
           <div className="column left">
             <div className="question">
