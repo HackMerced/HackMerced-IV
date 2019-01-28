@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../assets/css/Nav.css';
 import { stack as Menu } from 'react-burger-menu'
 
+
 class Nav extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class Nav extends Component {
           <ul>
             <li><a href="#Home"><p>Home</p></a></li>
             <li><a href="#About"><p>About</p></a></li>
+            <li><a href="#Tracks"><p>Tracks</p></a></li>
             <li><a href="#Schedule"><p>Schedule</p></a></li>
             <li><a href="#Faqs"><p>Faqs</p></a></li>
             <li><a href="#Sponsors"><p>Sponsors</p></a></li>
@@ -19,6 +21,7 @@ class Nav extends Component {
 				<Menu right>
 					<a href="#Home">Home</a>
 					<a href="#About">About</a>
+          <a href="#Tracks">Tracks</a>
           <a href="#Schedule">Schedule</a>
 					<a href="#Faqs">Faqs</a>
 					<a href="#Sponsors">Sponsors</a>
