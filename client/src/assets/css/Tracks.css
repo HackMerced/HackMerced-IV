@@ -1,0 +1,18 @@
+.Tracks {
+  width: inherit;
+  padding: 100px 0 50px 0;
+  position: relative;
+}
+
+.Tracks .container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Tracks .theme {
+  display: inline-block;
+  margin: 40px 40px 0 0;
+}
+
+.Tracks .icon {
+}
