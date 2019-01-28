@@ -16,13 +16,14 @@
   transition: transform .2s; /* Animation */
 }
 
-.Nav a {
+.Nav .link {
   font-size: 18px;
-  color: grey;
-  text-decoration: none;
-}
-.Nav a:hover {
   color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.Nav .link:hover {
+  color: #D7AA27;
 }
 .Nav li:hover {
   transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */

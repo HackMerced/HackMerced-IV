@@ -61,7 +61,7 @@ class Schedule extends Component {
                 </tr>
                 <tr>
                   <td className="time"><p>9am</p></td>
-                  <td className="event"><p>Breakfast & Hacking Ends</p></td>
+                  <td className="event"><p>Breakfast &<br />Hacking Ends</p></td>
                 </tr>
                 <tr>
                   <td className="time"><p>11am</p></td>
