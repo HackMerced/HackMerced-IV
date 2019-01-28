@@ -9,11 +9,13 @@ import GDC from '../assets/images/GoodDayChocolate.png';
 import ASUCM from '../assets/images/ASUCM.png';
 import OSL from '../assets/images/OSL.png';
 import Raccoon from '../assets/images/raccoon4.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Sponsors extends Component {
   render() {
     return (
       <div className="Sponsors" id="Sponsors" >
+      <ScrollAnimation animateIn="fadeIn" duration={1} animateOnce="true">
         <h2><u>SPONSORS</u></h2>
         <div className="container">
           <div className="gold">
@@ -64,6 +66,7 @@ class Sponsors extends Component {
         <div className="image">
           <img src={Raccoon} className="Raccoon" alt="Raccoon" />
         </div>
+        </ScrollAnimation>
       </div>
     );
   }

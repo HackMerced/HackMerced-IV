@@ -9,20 +9,20 @@ class Nav extends Component {
       <div className="Nav" id="Nav">
         <nav className="wide-navbar">
           <ul>
-            <li><a href="#Home"><p>Home</p></a></li>
-            <li><a href="#About"><p>About</p></a></li>
-            <li><a href="#Tracks"><p>Tracks</p></a></li>
-            <li><a href="#Schedule"><p>Schedule</p></a></li>
-            <li><a href="#Faqs"><p>Faqs</p></a></li>
-            <li><a href="#Sponsors"><p>Sponsors</p></a></li>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Schedule">Schedule</a></li>
+            <li><a href="#Tracks">Tracks</a></li>
+            <li><a href="#Faqs">Faqs</a></li>
+            <li><a href="#Sponsors">Sponsors</a></li>
           </ul>
         </nav>
 
 				<Menu right>
 					<a href="#Home">Home</a>
 					<a href="#About">About</a>
-          <a href="#Tracks">Tracks</a>
           <a href="#Schedule">Schedule</a>
+          <a href="#Tracks">Tracks</a>
 					<a href="#Faqs">Faqs</a>
 					<a href="#Sponsors">Sponsors</a>
       	</Menu>

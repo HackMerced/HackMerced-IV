@@ -13,18 +13,19 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0 25px;
+  transition: transform .2s; /* Animation */
 }
 
 .Nav a {
-  color: #fff;
+  font-size: 18px;
+  color: grey;
   text-decoration: none;
 }
-
-.Nav p {
-  padding-bottom: 10px;
+.Nav a:hover {
+  color: #fff;
 }
-.Nav a p:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.Nav li:hover {
+  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -62,6 +63,9 @@
   background: #373a47;
   padding: 2.5em 1.5em 0;
   font-size: 1.5em;
+  margin-bottom: 5px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 /* Morph shape necessary with bubble or elastic */

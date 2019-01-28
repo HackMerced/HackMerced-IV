@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../assets/css/About.css';
 import Raccoon from '../assets/images/raccoon.png';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class About extends Component {
   render() {
     return (
       <div className="About" id="About" >
+      <ScrollAnimation animateIn="fadeIn" duration={1} animateOnce="true">
         <div className="container">
           <h2><u>ABOUT US</u></h2>
           <div className="image">
@@ -25,6 +27,7 @@ class About extends Component {
             </div>
           </div>
         </div>
+        </ScrollAnimation>
       </div>
     );
   }

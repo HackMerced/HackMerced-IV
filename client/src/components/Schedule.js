@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import '../assets/css/Schedule.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Schedule extends Component {
   render() {
     return (
       <div className="Schedule" id="Schedule" >
+      <ScrollAnimation animateIn="fadeIn" duration={1} animateOnce="true">
         <div className="container">
           <h2><u>SCHEDULE</u></h2>
           <div className="days">
@@ -77,6 +79,7 @@ class Schedule extends Component {
             </div>
           </div>
         </div>
+        </ScrollAnimation>
       </div>
     );
   }

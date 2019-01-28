@@ -4,8 +4,8 @@ import './assets/css/App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
-import Tracks from './components/Tracks';
 import Schedule from './components/Schedule';
+import Tracks from './components/Tracks';
 import Faqs from './components/Faqs';
 import Sponsors from './components/Sponsors';
 import Footer from './components/Footer';
@@ -17,12 +17,11 @@ class App extends Component {
         <Nav />
         <Home />
         <About />
-        <Tracks />
         <Schedule />
+        <Tracks />
         <Faqs />
         <Sponsors />
         <Footer />
-
       </div>
     );
   }
