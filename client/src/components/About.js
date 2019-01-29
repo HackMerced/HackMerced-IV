@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import '../assets/css/About.css';
 import Raccoon from '../assets/images/raccoon.png';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -12,7 +11,7 @@ class About extends Component {
         <div className="container">
           <h2><u>ABOUT US</u></h2>
           <div className="image">
-            <img src={Tent} className="tent" alt="TENT" />
+            <img src={Raccoon} className="Raccoon" alt="Raccoon" />
           </div>
           <div className="text">
             <div className="info">

@@ -1,5 +1,6 @@
 .Home {
   width: 100%;
+
   position: relative;
   background: rgba(2,0,36,1);
   background: linear-gradient(360deg, #6A83A8 10%, #daad27 10%, #09111D 35%, #020024 80%);
@@ -30,7 +31,7 @@
 
 .button {
   display:inline-block;
-  background-color: #009c3b;
+  background-color: #D7AA27;
   border: none;
   border-radius: 30px;
   font-size: 32px;
@@ -44,7 +45,7 @@
 }
 
 a.button:hover {
-  background-color: #27AE60;
+  background-color: #F4D03F;
 }
 
 @media screen and (max-width: 700px) {

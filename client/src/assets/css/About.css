@@ -31,10 +31,6 @@
   vertical-align: middle;
 }
 
-.tent {
-  width: 500px;
-}
-
 @media screen and (max-width: 1200px) {
   .About {
     padding-top: 100px;
@@ -45,7 +41,7 @@
 }
 
 @media screen and (max-width: 650px) {
-  .About .text, .tent {
+  .About .text {
     width: 300px;
   }
 }
