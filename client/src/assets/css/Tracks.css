@@ -10,7 +10,11 @@
   padding: 0 20px;
 }
 
+.Tracks.themes {
+}
+
 .Tracks .theme {
+  width: 200px;
   display: inline-block;
   margin: 40px 40px 0 40px;
 }
