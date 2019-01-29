@@ -92,7 +92,6 @@ class Hackers extends Component {
       name, 
       email,
       phone,
-      privileges,
       school,
       age,
       gender,
@@ -123,6 +122,120 @@ class Hackers extends Component {
           type="text"
           name="email"
           value={email}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="phone"
+          value={phone}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="school"
+          value={school}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="age"
+          value={age}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="gender"
+          value={gender}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="skills"
+          value={skills}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="interests"
+          value={interests}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="programmingLanguages"
+          value={programmingLanguages}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="dietaryRestrictions"
+          value={dietaryRestrictions}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="allergies"
+          value={allergies}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="specialNeeds"
+          value={specialNeeds}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="shirtSize"
+          value={shirtSize}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="previousHackathons"
+          value={previousHackathons}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="haveTeam"
+          value={haveTeam}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="teamEmails"
+          value={teamEmails}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="reimbursement"
+          value={reimbursement}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="linkedin"
+          value={linkedin}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="github"
+          value={github}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="otherSites"
+          value={otherSites}
+          onChange={this.onChange}
+        />
+        <input
+          type="text"
+          name="resume"
+          value={resume}
           onChange={this.onChange}
         />
         <button type="submit">Submit</button>
