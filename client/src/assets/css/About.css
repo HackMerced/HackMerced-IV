@@ -1,8 +1,8 @@
 .About {
   width: inherit;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding: 100px 0 50px 0;
   position: relative;
+  background-color: #324157;
 }
 
 .About .container {
@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 1200px) {
   .About {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .About .container {
     width: inherit;

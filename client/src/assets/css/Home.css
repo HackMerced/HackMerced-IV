@@ -1,25 +1,31 @@
 .Home {
-  height: 100vh;
   width: 100%;
-
   position: relative;
-
-  background: linear-gradient(0deg, rgba(195,188,169,1) 10%, rgba(34,152,195,1) 10%, rgba(2,0,36,1) 50%);
-
+  background: rgba(2,0,36,1);
+  background: linear-gradient(360deg, #6A83A8 10%, #daad27 10%, #09111D 35%, #020024 80%);
 }
 
 .Home .container {
-  height: inherit;
+  height: 100vh;
+  width: 100%;
+  display: table;
+  position: relative;
+}
 
+.Home .bg {
   background-image: url('../images/UCM.png');
-  background-position: bottom 60px center;
+  background-position: bottom 10% center;
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-size: 3200px ;
 }
 
 .content {
-  padding-top: 240px;
+  height: inherit;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  text-align: center;
 }
 
 .button {
@@ -44,5 +50,19 @@ a.button:hover {
 @media screen and (max-width: 700px) {
   .Home h1 {
     font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Home {
+  }
+  .Home .container {
+    background-size: 1600px ;
+  }
+}
+
+@media screen and (max-height: 800px) {
+  .Home .container {
+    background-size: 2000px ;
   }
 }

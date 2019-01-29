@@ -1,25 +1,146 @@
 import React, { Component } from 'react';
 import '../assets/css/Nav.css';
 import { stack as Menu } from 'react-burger-menu'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class Nav extends Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   render() {
     return (
       <div className="Nav" id="Nav">
         <nav className="wide-navbar">
-          <ul>
-            <li><a href="#Home"><p>Home</p></a></li>
-            <li><a href="#About"><p>About</p></a></li>
-            <li><a href="#Faqs"><p>Faqs</p></a></li>
-            <li><a href="#Sponsors"><p>Sponsors</p></a></li>
+          <ul className="nav-items">
+            <li className="nav-item">
+              <Link
+                className="link"
+                onClick={this.scrollToTop}
+              >
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="About"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                About
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="Schedule"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Schedule
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="Tracks"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Tracks
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="Faqs"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Faqs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="Sponsors"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Sponsors
+              </Link>
+            </li>
           </ul>
         </nav>
 
 				<Menu right>
-					<a href="#Home">Home</a>
-					<a href="#About">About</a>
-					<a href="#Faqs">Faqs</a>
-					<a href="#Sponsors">Sponsors</a>
+          <Link
+            className="link"
+            onClick={this.scrollToTop}
+          >
+            Home
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="About"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            About
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="Schedule"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Schedule
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="Tracks"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Tracks
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="Faqs"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Faqs
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="Sponsors"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Sponsors
+          </Link>
       	</Menu>
 
         <a id="mlh-trust-badge" style={{ display:"block", maxWidth:"100px", minWidth:"60px", position:"absolute", left:"50px", top:"0", width:"10%", zIndex:"10000"}}

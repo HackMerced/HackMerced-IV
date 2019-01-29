@@ -1,0 +1,37 @@
+.Schedule {
+  width: inherit;
+  padding: 100px 0;
+  position: relative;
+  background-color: #324157;
+}
+
+.Schedule .container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Schedule .day {
+  display: inline-block;
+  padding: 0 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.Schedule table {
+  width: 350px;
+  margin-top: 40px;
+}
+
+.Schedule table .time {
+  text-align: right;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Schedule {
+    padding-top: 100px;
+  }
+  .Schedule .container {
+    width: inherit;
+  }
+}
