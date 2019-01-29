@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import ScrollAnimation from 'react-animate-on-scroll';
+
 import '../assets/css/Sponsors.css';
 import CITRIS from '../assets/images/CITRIS.png';
 import UCANR from '../assets/images/UCANR.png';
@@ -9,7 +11,6 @@ import GDC from '../assets/images/GoodDayChocolate.png';
 import ASUCM from '../assets/images/ASUCM.png';
 import OSL from '../assets/images/OSL.png';
 import Raccoon from '../assets/images/raccoon4.png';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 class Sponsors extends Component {
   render() {
@@ -61,10 +62,7 @@ class Sponsors extends Component {
         </div>
         <div className="prompt">
           <h3>Interested in sponsoring us?</h3>
-          <p>Email us at <a href="mailto:sponsorship@hackmerced.com" style={{textDecoration:"none", color:"#D7AA27"}}>sponsorship@hackmerced.com</a>.</p>
-        </div>
-        <div className="image">
-          <img src={Raccoon} className="Raccoon" alt="Raccoon" />
+          <p>Email us at <a href="mailto:sponsorship@hackmerced.com" style={{textDecoration:"none", color:"#82E0AA"}}>sponsorship@hackmerced.com</a>.</p>
         </div>
         </ScrollAnimation>
       </div>

@@ -37,12 +37,6 @@
 .Sponsors.prompt {
   padding: 0 20px;
 }
-
-.Sponsors .Raccoon {
-  margin-top: 40px;
-  width: 200px;
-}
-
 @media screen and (max-width: 800px) {
   .row .icon{
     display: block;
