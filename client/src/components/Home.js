@@ -20,8 +20,8 @@ class Home extends Component {
             </ScrollAnimation>
             <ScrollAnimation animateIn='fadeInDown' delay={2000} animateOnce="true">
 
-            <a className="Apply button" href='https://hackmerced1.typeform.com/to/FsXiEC'><strong>Apply</strong></a>
-            <a className="Volunteer button" href='https://hackmerced1.typeform.com/to/OU59Ac'><strong>Volunteer</strong></a>
+            <a className="Apply button" href='https://hackmerced1.typeform.com/to/FsXiEC' target="_blank"><strong>Apply</strong></a>
+            <a className="Volunteer button" href='https://hackmerced1.typeform.com/to/OU59Ac' target="_blank"><strong>Volunteer</strong></a>
             </ScrollAnimation>
           </div>
         </div>
