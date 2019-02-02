@@ -2,7 +2,7 @@
   width: inherit;
   padding-top: 100px;
   position: relative;
-  background-color: #09111D;
+  background-color: #324157;
 }
 
 .Tracks .container {
@@ -13,7 +13,7 @@
 .Tracks .theme {
   width: 200px;
   display: inline-block;
-  margin: 40px 40px 0 40px;
+  margin: 40px 30px 0 30px;
 }
 
 .Tracks .icon {
