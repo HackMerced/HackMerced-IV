@@ -1,12 +1,12 @@
 .Sponsors {
   width: inherit;
-  padding: 100px 0;
+  padding-top: 100px;
   position: relative;
+  background-color: #09111D;
 }
 
-.Sponsors .column {
-  display: flex;
-
+.Sponsors .container {
+  padding: 0 20px;
 }
 
 .Sponsors .row {
@@ -14,24 +14,45 @@
 }
 
 .icon {
-  margin: 10px;
-}
-
-.row .icon{
+  margin: 30px;
   display: inline-block;
-  margin: 0 auto;
+  vertical-align: middle;
 }
 
-.gold img {
-  width: 700px;
+.top {
+  margin-top: 30px;
 }
 
-.silver img {
+.Citris img {
+  width: 350px;
+}
+
+.Ucanr img {
   width: 600px;
 }
 
-.bronze img {
-  width: 350px;
+.Venture img {
+  width: 550px;
+}
+
+.row img {
+  width: 200px;
+}
+
+.end img {
+  width: 150px;
+}
+
+.supporters .icon {
+  width: 200px;
+}
+
+.supporters img {
+  width: 200px;
+}
+
+.Vanguard img, .ASUCM img {
+  width: 150px;
 }
 
 .Sponsors.prompt {
@@ -43,36 +64,42 @@
   width: 200px;
 }
 
-@media screen and (max-width: 800px) {
-  .row .icon{
-    display: block;
-    margin: 0 auto;
+.sponsoring, .supporters {
+  margin-bottom: 50px;
+}
+
+.icon img {
+  transition: transform .3s; /* Animation */
+}
+.icon img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media screen and (max-width: 700px) {
+
+  .Ucanr img {
+    width: 400px;
   }
 
-  .gold img {
-    width: 500px;
-  }
-
-  .silver img {
+  .Venture img {
     width: 400px;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .row .icon{
+@media screen and (max-width: 550px) {
+  .sponsoring .icon {
     display: block;
-    margin: 0 auto;
   }
+}
 
-  .gold img {
-    width: 350px;
+@media screen and (max-width: 450px) {
+  .Citris img {
+    width: 300px;
   }
-
-  .silver img {
+  .Ucanr img {
     width: 300px;
   }
 
-  .bronze img {
+  .Venture img {
     width: 250px;
   }
 }

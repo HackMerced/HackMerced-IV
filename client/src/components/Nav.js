@@ -37,24 +37,24 @@ class Nav extends Component {
               <Link
                 className="link"
                 activeClass="active"
-                to="Schedule"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Schedule
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="link"
-                activeClass="active"
                 to="Tracks"
                 spy={true}
                 smooth={true}
                 duration={500}
               >
                 Tracks
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="link"
+                activeClass="active"
+                to="Schedule"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Schedule
               </Link>
             </li>
             <li className="nav-item">
@@ -104,22 +104,22 @@ class Nav extends Component {
           <Link
             className="link"
             activeClass="active"
-            to="Schedule"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Schedule
-          </Link>
-          <Link
-            className="link"
-            activeClass="active"
             to="Tracks"
             spy={true}
             smooth={true}
             duration={500}
           >
             Tracks
+          </Link>
+          <Link
+            className="link"
+            activeClass="active"
+            to="Schedule"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            Schedule
           </Link>
           <Link
             className="link"

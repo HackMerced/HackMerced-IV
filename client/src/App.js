@@ -17,8 +17,8 @@ class App extends Component {
         <Nav />
         <Home />
         <About />
-        <Schedule />
         <Tracks />
+        <Schedule />
         <Faqs />
         <Sponsors />
         <Footer />

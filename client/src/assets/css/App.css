@@ -67,10 +67,10 @@ u {
     border-radius: 15px;
 }
 
-.Raccoon, .icon, .question {
+.Raccoon, .question {
   transition: transform .3s; /* Animation */
 }
-.Raccoon:hover, .icon:hover {
+.Raccoon:hover {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
