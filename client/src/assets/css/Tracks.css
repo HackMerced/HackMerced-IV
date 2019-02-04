@@ -10,11 +10,30 @@
   padding: 0 20px;
 }
 
+.Tracks .info {
+  margin: 50px auto 0 auto;
+  width: 800px;
+}
+
 .Tracks .theme {
   width: 200px;
   display: inline-block;
-  margin: 40px 30px 0 30px;
+  margin: 20px 30px 0 30px;
 }
 
-.Tracks .icon {
+.fas, .fab {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
+
+}
+
+@media screen and (max-width: 850px) {
+  .Tracks .info {
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Tracks .info {
+    width: 350px;
+  }
 }
