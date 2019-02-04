@@ -2,6 +2,7 @@
   width: inherit;
   padding: 100px 0;
   position: relative;
+  background-color: #09111D;
 }
 
 .Faqs .container {
@@ -15,18 +16,16 @@
 }
 
 .left {
-  /* margin-left: 200px; */
   margin-right: 20px;
 }
 
 .right {
   margin-left: 20px;
-  /* margin-right: 200px; */
 }
 
 .Faqs .question {
   text-align: left;
-  border: 4px solid #82E0AA;
+  border: 4px solid #D7AA27;
   border-radius: 15px;
   padding: 35px;
   margin: 40px 0;

@@ -3,7 +3,6 @@
   text-align: center;
   width: inherit;
   height: inherit;
-  background: linear-gradient(180deg, rgba(0,156,59,1) 23%, rgba(2,0,36,1) 46%);
 }
 
 h1 {
@@ -60,6 +59,23 @@ p {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 1px;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 10px solid #D7AA27;
+    border-radius: 15px;
+}
+
+.Raccoon, .icon, .question {
+  transition: transform .3s; /* Animation */
+}
+.Raccoon:hover, .icon:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.question:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 900px) {

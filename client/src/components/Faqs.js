@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../assets/css/Faqs.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Faqs extends Component {
   render() {
     return (
       <div className="Faqs" id="Faqs" >
-        <h2>FREQUENTLY ASKED QUESTIONS</h2>
+      <ScrollAnimation animateIn="fadeIn" duration={1} animateOnce="true">
+        <h2><u>FREQUENTLY ASKED QUESTIONS</u></h2>
         <div className="container">
           <div className="column left">
             <div className="question">
@@ -49,9 +51,10 @@ class Faqs extends Component {
         </div>
         <div className="prompt">
           <h3>Any other questions?</h3>
-          <p>Feel free to message us at: <a href="mailto:general@hackmerced.com?subject=HackMerced Questions&body=Dear HackMerced," style={{textDecoration:"none", color:"#82E0AA"}}>general@hackmerced.com</a>.
+          <p>Feel free to message us at: <a href="mailto:general@hackmerced.com?subject=HackMerced Questions&body=Dear HackMerced," style={{textDecoration:"none", color:"#D7AA27"}}>general@hackmerced.com</a>.
           </p>
         </div>
+        </ScrollAnimation>
       </div>
     );
   }

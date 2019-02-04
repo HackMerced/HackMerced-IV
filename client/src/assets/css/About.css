@@ -1,8 +1,8 @@
 .About {
   width: inherit;
   padding-top: 100px;
-  padding-bottom: 50px;
   position: relative;
+  background-color: #324157;
 }
 
 .About .container {
@@ -31,21 +31,17 @@
   vertical-align: middle;
 }
 
-.tent {
-  width: 500px;
-}
-
 @media screen and (max-width: 1200px) {
   .About {
-    padding-top: 50px;
+    padding-top: 100px;
   }
   .About .container {
     width: inherit;
   }
 }
 
-@media screen and (max-width: 650px) {
-  .About .text, .tent {
-    width: 300px;
+@media screen and (max-width: 700px) {
+  .About .text {
+    width: 330px;
   }
 }
