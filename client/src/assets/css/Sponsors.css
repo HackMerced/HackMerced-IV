@@ -43,6 +43,10 @@
   width: 150px;
 }
 
+.Merco img {
+  width: 100px;
+}
+
 .supporters .icon {
   width: 200px;
 }
@@ -88,6 +92,7 @@
 @media screen and (max-width: 550px) {
   .sponsoring .icon {
     display: block;
+    margin: 50px 0;
   }
 }
 

@@ -5,8 +5,9 @@ import UCANR from '../assets/images/UCANR.png';
 import Venture from '../assets/images/VentureLab.png';
 import Monster from '../assets/images/Monster.png';
 import Wolfram from '../assets/images/Wolfram.png';
-import Craze from '../assets/images/Craze.png'
-import Vanguard from '../assets/images/Vanguard.png'
+import Craze from '../assets/images/Craze.png';
+import Vanguard from '../assets/images/Vanguard.png';
+import Merco from '../assets/images/Merco.png';
 import MM from '../assets/images/MakeyMakey.png';
 import SM from '../assets/images/StickerMule.png';
 import CM from '../assets/images/CoolerMaster.png';
@@ -53,6 +54,9 @@ class Sponsors extends Component {
               </div>
             </div>
             <div className="row end">
+              <div className="icon Merco">
+                <a href="https://merco.org" target="_blank"><img src={Merco} alt="Merco" /></a>
+              </div>
               <div className="icon MakeyMakey">
                 <a href="https://makeymakey.com" target="_blank"><img src={MM} alt="MakeyMakey" /></a>
               </div>
