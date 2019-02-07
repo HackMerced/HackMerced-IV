@@ -8,6 +8,7 @@ import Wolfram from '../assets/images/Wolfram.png';
 import Craze from '../assets/images/Craze.png';
 import Vanguard from '../assets/images/Vanguard.png';
 import Merco from '../assets/images/Merco.png';
+import CZI from '../assets/images/CZI.png';
 import MM from '../assets/images/MakeyMakey.png';
 import SM from '../assets/images/StickerMule.png';
 import CM from '../assets/images/CoolerMaster.png';
@@ -15,6 +16,7 @@ import GDC from '../assets/images/GoodDayChocolate.png';
 import ASUCM from '../assets/images/ASUCM.png';
 import OSL from '../assets/images/OSL.png';
 import MLH from '../assets/images/MLH.png';
+import Smash from '../assets/images/Smash.png';
 import Raccoon from '../assets/images/raccoon4.png';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -46,26 +48,32 @@ class Sponsors extends Component {
               <div className="icon Wolfram">
                 <a href="http://www.wolfram.com/?source=nav" target="_blank"><img src={Wolfram} alt="Wolfram" /></a>
               </div>
-              <div className="icon Monster">
-                <a href="https://www.monsterenergy.com" target="_blank"><img src={Monster} alt="Monster Energy" /></a>
+              <div className="icon CZI">
+                <a href="https://chanzuckerberg.com" target="_blank"><img src={CZI} alt="CZI" /></a>
+              </div>
+            </div>
+            <div className="row">
+              <div className="icon MakeyMakey">
+                <a href="https://makeymakey.com" target="_blank"><img src={MM} alt="MakeyMakey" /></a>
               </div>
               <div className="icon StickerMule">
                 <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank"><img src={SM} alt="StickerMule" /></a>
               </div>
-            </div>
-            <div className="row end">
-              <div className="icon Merco">
-                <a href="https://merco.org" target="_blank"><img src={Merco} alt="Merco" /></a>
-              </div>
-              <div className="icon MakeyMakey">
-                <a href="https://makeymakey.com" target="_blank"><img src={MM} alt="MakeyMakey" /></a>
-              </div>
               <div className="icon CoolerMaster">
                 <a href="http://www.coolermaster.com/" target="_blank"><img src={CM} alt="CoolerMaster" /></a>
+              </div>
+            </div>
+            <div className="row">
+              <div className="icon Monster">
+                <a href="https://www.monsterenergy.com" target="_blank"><img src={Monster} alt="Monster Energy" /></a>
+              </div>
+              <div className="icon Merco">
+                <a href="https://merco.org" target="_blank"><img src={Merco} alt="Merco" /></a>
               </div>
               <div className="icon GoodDayChocolate">
                 <a href="https://www.gooddaychocolate.com" target="_blank"><img src={GDC} alt="Good Day Chocolates" /></a>
               </div>
+
             </div>
           </section>
           <section className="supporters">
@@ -80,8 +88,13 @@ class Sponsors extends Component {
               <div className="icon ASUCM">
                 <a href="https://asucm.ucmerced.edu" target="_blank"><img src={ASUCM} alt="ASUCM" /></a>
               </div>
+            </div>
+            <div className="row">
               <div className="icon OSL">
                 <a href="https://studentlife.ucmerced.edu" target="_blank"><img src={OSL} alt="OSL" /></a>
+              </div>
+              <div className="icon Smash">
+                <a href="https://catlife.ucmerced.edu/organization/supersmashbrosclub" target="_blank"><img src={Smash} alt="Smash" /></a>
               </div>
             </div>
           </section>

@@ -14,9 +14,13 @@
 }
 
 .icon {
-  margin: 30px;
+  margin: 20px;
   display: inline-block;
   vertical-align: middle;
+}
+
+.row .icon {
+  width: 300px;
 }
 
 .top {
@@ -36,11 +40,15 @@
 }
 
 .row img {
-  width: 200px;
+  width: 220px;
 }
 
-.end img {
-  width: 150px;
+.StickerMule img {
+  width: 300px;
+}
+
+.CoolerMaster img {
+  width: 180px;
 }
 
 .Merco img {
