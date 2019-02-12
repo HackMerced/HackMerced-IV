@@ -2,10 +2,8 @@ import React, { Component } from 'react';
 import '../assets/css/Faqs.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 
-class Faqs extends Component {
-  render() {
-    return (
-      <div className="Faqs" id="Faqs" >
+const Faqs = () => (
+  <div className="Faqs" id="Faqs" >
       <ScrollAnimation animateIn="fadeIn" duration={1} animateOnce="true">
         <h2><u>FREQUENTLY ASKED QUESTIONS</u></h2>
         <div className="container">
@@ -57,8 +55,6 @@ class Faqs extends Component {
         </div>
         </ScrollAnimation>
       </div>
-    );
-  }
-}
+);
 
 export default Faqs;
