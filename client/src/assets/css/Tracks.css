@@ -21,7 +21,8 @@
   margin: 20px 30px 0 30px;
 }
 
-.fas, .fab {
+.fas,
+.fab {
   text-shadow: 3px 3px 3px rgba(0, 0, 0, .84), 4px 2px 4px rgba(0, 0, 0, .85);
 
 }

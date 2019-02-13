@@ -14,7 +14,8 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0 25px;
-  transition: transform .2s; /* Animation */
+  transition: transform .2s;
+  /* Animation */
 }
 
 .Nav .link {
@@ -23,12 +24,16 @@
   text-decoration: none;
   cursor: pointer;
 }
+
 .Nav .link:hover {
   color: #D7AA27;
 }
+
 .Nav li:hover {
-  transform: scale(1.4); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.4);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   display: none;
@@ -92,10 +97,11 @@
 }
 
 @media screen and (max-width: 800px) {
-    .Nav .wide-navbar {
-      display: none;
-    }
-    .bm-burger-button {
-      display: block;
-    }
+  .Nav .wide-navbar {
+    display: none;
+  }
+
+  .bm-burger-button {
+    display: block;
+  }
 }
