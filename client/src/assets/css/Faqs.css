@@ -42,7 +42,8 @@
     width: inherit;
   }
 
-  .left, .right {
+  .left,
+  .right {
     margin: 0 20px;
   }
 }

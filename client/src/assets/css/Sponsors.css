@@ -14,7 +14,7 @@
 }
 
 .icon {
-  margin: 20px;
+  margin: 10px 20px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -40,14 +40,18 @@
 }
 
 .row img {
-  width: 220px;
+  width: 200px;
 }
 
 .StickerMule img {
-  width: 300px;
+  width: 250px;
 }
 
 .CoolerMaster img {
+  width: 180px;
+}
+
+.RedBull img {
   width: 180px;
 }
 
@@ -63,7 +67,8 @@
   width: 200px;
 }
 
-.Vanguard img, .ASUCM img {
+.Vanguard img,
+.ASUCM img {
   width: 150px;
 }
 
@@ -76,15 +81,19 @@
   width: 200px;
 }
 
-.sponsoring, .supporters {
+.sponsoring,
+.supporters {
   margin-bottom: 50px;
 }
 
 .icon img {
-  transition: transform .3s; /* Animation */
+  transition: transform .3s;
+  /* Animation */
 }
+
 .icon img:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 @media screen and (max-width: 700px) {
@@ -97,6 +106,7 @@
     width: 400px;
   }
 }
+
 @media screen and (max-width: 550px) {
   .sponsoring .icon {
     display: block;
@@ -108,6 +118,7 @@
   .Citris img {
     width: 300px;
   }
+
   .Ucanr img {
     width: 300px;
   }

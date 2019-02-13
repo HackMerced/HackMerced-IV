@@ -63,23 +63,26 @@ p {
 }
 
 u {
-    text-decoration: none;
-    border-bottom: 10px solid #D7AA27;
-    border-radius: 15px;
+  text-decoration: none;
+  border-bottom: 10px solid #D7AA27;
+  border-radius: 15px;
 }
 
-.Raccoon, .question {
-  transition: transform .3s; /* Animation */
+.Raccoon,
+.question {
+  transition: transform .3s;
+  /* Animation */
 }
+
 .Raccoon:hover {
-  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 .question:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 900px) {
-  .App {
-  }
+  .App {}
 }
