@@ -48,7 +48,7 @@ const Sponsors = () => (
               </a>
             </div>
           </div>
-          <div className="top-silver">
+          <div className="top-next">
             <div className="icon Ucanr">
               <a
                 href="https://ucanr.edu"
@@ -59,7 +59,7 @@ const Sponsors = () => (
               </a>
             </div>
           </div>
-          <div className="row">
+          <div className="rows">
             <div className="icon Craze">
               <a
                 href="http://crazedigitalmedia.com"
@@ -87,8 +87,6 @@ const Sponsors = () => (
                 <img src={CZI} alt="CZI" />
               </a>
             </div>
-          </div>
-          <div className="row">
             <div className="icon MakeyMakey">
               <a
                 href="https://makeymakey.com"
@@ -116,8 +114,6 @@ const Sponsors = () => (
                 <img src={CM} alt="CoolerMaster" />
               </a>
             </div>
-          </div>
-          <div className="row">
             <div className="icon Monster">
               <a
                 href="https://www.monsterenergy.com"
@@ -145,8 +141,6 @@ const Sponsors = () => (
                 <img src={GDC} alt="Good Day Chocolates" />
               </a>
             </div>
-          </div>
-          <div className="row">
             <div className="icon RedBull">
               <a
                 href="https://www.redbull.com/us-en/"
@@ -162,7 +156,7 @@ const Sponsors = () => (
           <h2>
             <u>SUPPORTERS</u>
           </h2>
-          <div className="row top">
+          <div className="rows top">
             <div className="icon MLH">
               <a
                 href="https://mlh.io/"
@@ -190,8 +184,6 @@ const Sponsors = () => (
                 <img src={ASUCM} alt="ASUCM" />
               </a>
             </div>
-          </div>
-          <div className="row">
             <div className="icon OSL">
               <a
                 href="https://studentlife.ucmerced.edu"

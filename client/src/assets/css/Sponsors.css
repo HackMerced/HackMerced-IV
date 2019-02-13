@@ -6,10 +6,12 @@
 }
 
 .Sponsors .container {
+  width: 1100px;
   padding: 0 20px;
+  margin: 0 auto;
 }
 
-.Sponsors .row {
+.Sponsors .rows {
   flex: 50%;
 }
 
@@ -19,8 +21,8 @@
   vertical-align: middle;
 }
 
-.row .icon, .supporters .icon {
-  width: 300px;
+.rows .icon, .supporters .icon {
+  width: 250px;
 }
 
 .top {
@@ -33,13 +35,14 @@
 
 .Ucanr img {
   width: 600px;
+  margin: 20px 0;
 }
 
 .Venture img {
   width: 550px;
 }
 
-.row img {
+.rows img {
   width: 200px;
 }
 
@@ -87,7 +90,20 @@
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+@media screen and (max-width: 1100px) {
+  .Sponsors .container {
+    width: 650px;
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .Sponsors .container {
+    width: 440px;
+  }
+
+  .icon {
+    margin: 20px auto;
+  }
 
   .Ucanr img {
     width: 400px;
@@ -97,14 +113,12 @@
     width: 400px;
   }
 }
-@media screen and (max-width: 550px) {
-  .icon {
-    display: block;
-    margin: 50px auto;
-  }
-}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
+  .Sponsors .container {
+    width: 320px;
+  }
+
   .Citris img {
     width: 300px;
   }
