@@ -28,22 +28,6 @@ const Home = () => (
             animateOnce={true}
           >
             <a
-              className="Apply button"
-              href="https://hackmerced1.typeform.com/to/FsXiEC"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Apply</strong>
-            </a>
-            <a
-              className="Volunteer button"
-              href="https://hackmerced1.typeform.com/to/OU59Ac"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Volunteer</strong>
-            </a>
-            <a
               className="Volunteer button"
               href="https://hackmerced1.typeform.com/to/xGtrG8"
               target="_blank"
