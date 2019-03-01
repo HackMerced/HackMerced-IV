@@ -10,7 +10,7 @@ import Vanguard from "../assets/images/Vanguard.png";
 import Merco from "../assets/images/Merco.png";
 import CZI from "../assets/images/CZI.png";
 import MM from "../assets/images/MakeyMakey.png";
-import RB from "../assets/images/RedBull.png";
+import RB from "../assets/images/YerbaMate.png";
 import SM from "../assets/images/StickerMule.png";
 import CM from "../assets/images/CoolerMaster.png";
 import GDC from "../assets/images/GoodDayChocolate.png";
@@ -143,7 +143,7 @@ const Sponsors = () => (
             </div>
             <div className="icon RedBull">
               <a
-                href="https://www.redbull.com/us-en/"
+                href="https://guayaki.com/yerba-mate/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
