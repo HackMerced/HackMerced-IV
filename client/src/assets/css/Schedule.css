@@ -20,6 +20,7 @@
 .Schedule table {
   width: 300px;
   margin-top: 40px;
+  table-layout: fixed;
 }
 
 .Schedule table .time {
