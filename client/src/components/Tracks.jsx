@@ -35,7 +35,7 @@ const Tracks = () => (
             className="fab fa-pagelines"
             style={{ fontSize: 80, margin: "20px", color: "#2ECC71" }}
           />
-          <h3>Agritech</h3>
+          <h3>AgFoodTech</h3>
         </div>
       </div>
     </ScrollAnimation>
