@@ -1,37 +1,74 @@
 .Sponsors {
   width: inherit;
-  padding: 100px 0;
+  padding-top: 100px;
   position: relative;
+  background-color: #09111D;
 }
 
-.Sponsors .column {
-  display: flex;
-
+.Sponsors .container {
+  width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
 
-.Sponsors .row {
+.Sponsors .rows {
   flex: 50%;
 }
 
 .icon {
-  margin: 10px;
-}
-
-.row .icon{
+  margin: 10px 20px;
   display: inline-block;
-  margin: 0 auto;
+  vertical-align: middle;
 }
 
-.gold img {
-  width: 700px;
+.rows .icon, .supporters .icon {
+  width: 250px;
 }
 
-.silver img {
-  width: 600px;
+.top {
+  margin-top: 30px;
 }
 
-.bronze img {
+.Citris img {
   width: 350px;
+}
+
+.Ucanr img {
+  width: 600px;
+  margin: 20px 0;
+}
+
+.Venture img {
+  width: 550px;
+}
+
+.rows img {
+  width: 200px;
+}
+
+.StickerMule img {
+  width: 250px;
+}
+
+.CoolerMaster img {
+  width: 160px;
+}
+
+.RedBull img {
+  margin-top: 30px;
+  width: 180px;
+}
+
+.Merco img {
+  width: 100px;
+}
+
+.supporters img {
+  width: 200px;
+}
+
+.Vanguard img, .ASUCM img {
+  width: 150px;
 }
 
 .Sponsors.prompt {
@@ -43,36 +80,54 @@
   width: 200px;
 }
 
-@media screen and (max-width: 800px) {
-  .row .icon{
-    display: block;
-    margin: 0 auto;
+.sponsoring, .supporters {
+  margin-bottom: 50px;
+}
+
+.icon img {
+  transition: transform .3s; /* Animation */
+}
+.icon img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+@media screen and (max-width: 1100px) {
+  .Sponsors .container {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Sponsors .container {
+    width: 440px;
   }
 
-  .gold img {
-    width: 500px;
+  .icon {
+    margin: 20px auto;
   }
 
-  .silver img {
+  .Ucanr img {
+    width: 400px;
+  }
+
+  .Venture img {
     width: 400px;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .row .icon{
-    display: block;
-    margin: 0 auto;
+@media screen and (max-width: 500px) {
+  .Sponsors .container {
+    width: 320px;
   }
 
-  .gold img {
-    width: 350px;
+  .Citris img {
+    width: 300px;
   }
-
-  .silver img {
+  .Ucanr img {
     width: 300px;
   }
 
-  .bronze img {
-    width: 250px;
+  .Venture img {
+    width: 300px;
   }
 }

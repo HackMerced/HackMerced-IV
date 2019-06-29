@@ -18,8 +18,9 @@
 }
 
 .Schedule table {
-  width: 350px;
+  width: 300px;
   margin-top: 40px;
+  table-layout: fixed;
 }
 
 .Schedule table .time {
@@ -31,6 +32,7 @@
   .Schedule {
     padding-top: 100px;
   }
+
   .Schedule .container {
     width: inherit;
   }

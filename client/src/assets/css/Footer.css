@@ -2,8 +2,16 @@
   width: inherit;
   padding-top: 50px;
   position: relative;
+  background-color: #09111D;
 }
 
 .copyright {
   font-size: 16px;
+}
+
+.fas,
+.fab {
+  color: #fff;
+  font-size: 32px;
+  margin: 20px;
 }

@@ -2,7 +2,7 @@
   width: inherit;
   padding: 100px 0;
   position: relative;
-  background-color: #09111D;
+  background-color: #020024;
 }
 
 .Faqs .container {
@@ -42,7 +42,8 @@
     width: inherit;
   }
 
-  .left, .right {
+  .left,
+  .right {
     margin: 0 20px;
   }
 }
