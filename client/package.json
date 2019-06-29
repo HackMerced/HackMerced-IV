@@ -17,6 +17,7 @@
     "extends": "react-app"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.7.0",
     "react-animate-on-scroll": "^2.1.5",
     "react-burger-menu": "^2.6.1",
