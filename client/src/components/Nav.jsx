@@ -32,18 +32,6 @@ const Nav = () => (
           <Link
             className="link"
             activeClass="active"
-            to="Schedule"
-            spy={true}
-            smooth={true}
-            duration={500}
-          >
-            Schedule
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className="link"
-            activeClass="active"
             to="Faqs"
             spy={true}
             smooth={true}
