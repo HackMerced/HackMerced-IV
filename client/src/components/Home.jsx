@@ -22,20 +22,6 @@ const Home = () => (
           >
             <h2>March 1st - 3rd @ UC Merced</h2>
           </ScrollAnimation>
-          <ScrollAnimation
-            animateIn="fadeInDown"
-            delay={2000}
-            animateOnce={true}
-          >
-            <a
-              className="Volunteer button"
-              href="https://hackmerced1.typeform.com/to/xGtrG8"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <strong>Mentor</strong>
-            </a>
-          </ScrollAnimation>
         </div>
       </div>
     </ScrollAnimation>
