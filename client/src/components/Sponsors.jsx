@@ -26,7 +26,7 @@ const Sponsors = () => (
       <div className="container">
         <section className="sponsoring">
           <h2>
-            <u>SPONSORS</u>
+            <u>PAST SPONSORS</u>
           </h2>
           <div className="top">
             <div className="icon Citris">
@@ -154,7 +154,7 @@ const Sponsors = () => (
         </section>
         <section className="supporters">
           <h2>
-            <u>SUPPORTERS</u>
+            <u>PAST SUPPORTERS</u>
           </h2>
           <div className="rows top">
             <div className="icon MLH">

@@ -20,7 +20,7 @@ const Home = () => (
             delay={1500}
             animateOnce={true}
           >
-            <h2>March 1st - 3rd @ UC Merced</h2>
+            <h2>February 28th - March 1st @ UC Merced</h2>
           </ScrollAnimation>
         </div>
       </div>
